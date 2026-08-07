@@ -1,0 +1,12 @@
+{
+  "domain": "ifb_washer",
+  "name": "My IFB",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/khmkabeer/ha-ifb-washer",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/khmkabeer/ha-ifb-washer/issues",
+  "requirements": ["paho-mqtt==2.1.0"],
+  "version": "0.1.0",
+  "icon": "icon.png"
+}

@@ -1,0 +1,139 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "My IFB",
+        "description": "Enter your My IFB login identifier. An OTP will be sent by IFB.",
+        "data": {
+          "identifier": "Phone number or email",
+          "login_type": "Login type",
+          "calling_code": "Calling code",
+          "oauth_consumer_key": "IFB OAuth consumer key",
+          "oauth_consumer_secret": "IFB OAuth consumer secret",
+          "oauth_token": "IFB OAuth token",
+          "oauth_token_secret": "IFB OAuth token secret"
+        }
+      },
+      "otp": {
+        "title": "Enter OTP",
+        "description": "Enter the OTP sent for {identifier}.",
+        "data": {
+          "otp": "OTP"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to IFB.",
+      "invalid_auth": "Could not verify OTP or discover washer."
+    },
+    "abort": {
+      "already_configured": "This washer is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "phase": {
+        "name": "Phase"
+      },
+      "fault": {
+        "name": "Fault"
+      },
+      "program": {
+        "name": "Program"
+      },
+      "spin_speed": {
+        "name": "Spin speed"
+      },
+      "temperature": {
+        "name": "Temperature"
+      },
+      "door": {
+        "name": "Door"
+      },
+      "remaining_time": {
+        "name": "Remaining time"
+      },
+      "program_time": {
+        "name": "Program time"
+      },
+      "progress": {
+        "name": "Progress"
+      },
+      "raw_state": {
+        "name": "Raw state"
+      },
+      "load": {
+        "name": "Load"
+      },
+      "unbalance": {
+        "name": "Unbalance"
+      },
+      "water_temperature": {
+        "name": "Water temperature"
+      },
+      "motor_speed_raw": {
+        "name": "Motor speed raw"
+      },
+      "alarm1": {
+        "name": "Alarm 1"
+      },
+      "alarm2": {
+        "name": "Alarm 2"
+      },
+      "alarm3": {
+        "name": "Alarm 3"
+      },
+      "alarm4": {
+        "name": "Alarm 4"
+      },
+      "auto_dd_state_error": {
+        "name": "Auto detergent error"
+      }
+    },
+    "select": {
+      "program_select": {
+        "name": "Program select"
+      }
+    },
+    "button": {
+      "turn_on": {
+        "name": "Turn on"
+      },
+      "start": {
+        "name": "Start"
+      },
+      "pause": {
+        "name": "Pause"
+      },
+      "cancel": {
+        "name": "Cancel"
+      },
+      "turn_off": {
+        "name": "Turn off"
+      },
+      "child_lock_on": {
+        "name": "Child lock on"
+      },
+      "child_lock_off": {
+        "name": "Child lock off"
+      }
+    },
+    "binary_sensor": {
+      "online": {
+        "name": "Online"
+      },
+      "child_lock": {
+        "name": "Child lock"
+      },
+      "running": {
+        "name": "Running"
+      },
+      "fault": {
+        "name": "Fault"
+      },
+      "unbalance": {
+        "name": "Unbalance"
+      }
+    }
+  }
+}
