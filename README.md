@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/khmkabeer/ha-ifb-washer/main/icon.png" alt="My IFB icon" width="96">
+  <img src="https://raw.githubusercontent.com/VibeCircuit-MK/ha-ifb-washer/main/icon.png" alt="My IFB icon" width="96">
 </p>
 
 # My IFB
@@ -42,7 +42,7 @@ Do not use your Home Assistant long-lived token or your My IFB password in those
 1. Open HACS.
 2. Add this repository as a custom repository:
    ```text
-   https://github.com/khmkabeer/ha-ifb-washer
+   https://github.com/VibeCircuit-MK/ha-ifb-washer
    ```
 3. Choose category **Integration**.
 4. Install **My IFB**.
